@@ -12,43 +12,50 @@
 </head>
 
 <body class="poppins-normal">
-    <nav class="sm:max-w-[1440px] sm:m-auto sm:mt-[95px]">
-        <div class="sm:flex sm:justify-between sm:w-auto sm:items-center sm:ml-[120px] sm:mr-[120px]">
+    <nav class="max-w-[320px] mt-[40px] sm:max-w-[1440px] m-auto sm:mt-[95px]">
+        <div class="flex justify-between w-auto items-center sm:mx-[120px]">
+            <h1 class="sm:hidden"><i class="fa-solid fa-bars"></i></h1>
             <h2 class="sm:text-[24px] sm:font-bold sm:text-[#3A3A3A]">Influencer products</h2>
             <div class="">
                 <ul class="sm:list-none sm:flex sm:justify-around sm:gap-[34px]">
-                    <li><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Home</a></li>
-                    <li><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Products</a></li>
-                    <li><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Sign up</a></li>
-                    <li><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Log In</a></li>
-                    <li><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <li class="hidden sm:block"><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Home</a></li>
+                    <li class="hidden sm:block"><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Products</a></li>
+                    <li class="hidden sm:block"><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Sign up</a></li>
+                    <li class="hidden sm:block"><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#">Log In</a></li>
+                    <li class="hidden sm:block"><a class="sm:text-[#3A3A3A] sm:text-[16px]" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                     </li>
                     <li><a class="sm:text-[#3A3A3A] sm:text-[16px] " href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
-        <section class="sm:flex sm:justify-around sm:mx-[120px] sm:mt-[50px] sm:items-center">
-            <div class="sm:w-[60%]">
+
+
+
+
+        <section class="flex flex-col sm:flex-row justify-around mx-[120px] mt-[50px] items-center text-center sm:text-start">
+            <div class="">
                 <div class="">
-                    <h2 class="sm:text-[52px] sm:font-bold sm:text-[#3A3A3A]">Start your Journey as
+                    <h2 class="text-[28px] font-bold sm:text-[52px] sm:font-bold text-[#3A3A3A]">Start your Journey as
                         Influencer</h2>
                 </div>
-                <p class="sm:text-[16px] sm:font-semibold sm:text-[#3A3A3A] sm:w-[505px]">Lorem ipsum dolor sit amet, consectetur
+                <p class="text-[14px] sm:text-[16px] font-semibold text-[#3A3A3A] w-[320px] sm:w-[505px]">Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit. Sem vestibulum
                     sed
                     scelerisque eros. Lectus faucibus.</p>
-                <button class="sm:w-[195px] sm:h-[45px] sm:rounded-[40px] sm:bg-[#E02C6D] sm:mt-[16px] sm:text-white">Preebook now
+                <button class="w-[195px] h-[45px] rounded-[40px] bg-[#E02C6D] mt-[16px] text-white">Preebook now
                     <i class="fa-solid fa-arrow-right"></i>
                 </button>
             </div>
-            <div class="sm:banner-photo">
+            <div class="banner-photo mt-10 w-[257px] h-[257px] sm:w-[440px] sm:h-[414px]">
                 <img src="./images/main-camera.png" alt="">
             </div>
         </section>
-        <section class="sm:flex sm:justify-around sm:items-center">
+
+
+        <section class="flex justify-around items-center">
             <div
-                class="sm:flex sm:justify-around sm:text-center sm:items-center sm:mx-[165px] sm:mt-[100px] sm:w-[1110px] sm:h-auto sm:p-[20px] sm:shadow-[0px_0px_0.7px_0px_#3A3A3A]">
+                class="grid grid-rows-2 grid-cols-4 gap-6 sm:flex sm:justify-around sm:text-center sm:items-center sm:mx-[165px] mt-[100px] w-[320px]  sm:w-[1110px] h-auto p-[20px] shadow-[0px_0px_0.7px_0px_#3A3A3A]">
                 <img src="./logos/Alibaba.svg" alt="">
                 <img src="./logos/Amazon.svg" alt="">
                 <img src="./logos/Daraz.pk Logo.svg" alt="">
@@ -66,7 +73,7 @@
             <div class="mt-[100px] m-auto flex justify-center">
                 <h1 class="text-[28px] w-[262px] h-[70px]  font-semibold">Popular Collection</h1>
             </div>
-            <div class="mt-[30px] grid grid-cols-3 gap-[15px]">
+            <div class="grid grid-cols-1 gap-[15px] sm:mt-[30px] sm:grid sm:grid-cols-3 sm:gap-[15px]">
                 <div class="w-[329px] h-[476px] shadow-[0px_0px_8px_0px_#3A3A3A] p-[20px]">
                     <img class="w-[300px] h-[256px]" src="./images/tripod.png" alt="">
                     <h1 class="w-[151px] h-[40px] text-[28px] font-medium mt-[16px]">Flex Tripod</h1>
@@ -213,30 +220,28 @@
                 </div>
             </div>
         </section>
-        <!-- <section>
-            <h1>See More <i class="fa-solid fa-arrow-right"></i></h1>
-        </section> -->
-
-
-        
-
+    
     </main>
+     <section class="m-auto w-[320px] sm:w-[1020px] mt-[50px] text-[#E02C6D] font-bold text-end">
+            <h1>See More <i class="fa-solid fa-arrow-right"></i></h1>
+        </section>
     
     <footer class="mt-[100px]">
-        <section class="flex justify-center gap-[48px] items-center w-[1110px] h-[270px] m-auto">
-                <img src="./images/lights.png" alt="">
-            <div class="w-[610px] h-[224px]">
+        <section class="flex flex-col-reverse  sm:flex sm:flex-row sm:justify-center sm:gap-[48px] sm:items-center sm:w-[1110px] sm:h-[270px] m-auto">
+                <img class="w-[300px] h-[188px] sm:w-[404px] sm:h-[270px] m-auto" src="./images/lights.png" alt="">
+            <div class="w-[320px] h-[400px] m-auto sm:w-[610px] sm:h-[224px] text-center sm:text-start">
                 <h1 class="text-[38px] font-bold">Featured products at one place</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <h4>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h4>
                 <button class=" w-[195px] h-[45px] bg-[#E02C6D] mt-[16px] text-white">Join Now<i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </section>
+
+
         <section class="bg-[#181a3a] max-w-[1920px] h-[250px] text-white flex flex-col justify-center items-center mt-[100px]">
             <h2 class="text-[24px] font-bold">Influencer products</h2>
             <h2>Copyright © 2020  influencer products</h2>
             <h2>All rights reserved</h2>
-
         </section>
     </footer>
 
